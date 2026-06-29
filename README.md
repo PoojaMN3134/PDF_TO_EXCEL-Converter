@@ -1,1 +1,65 @@
+# PDF to Excel Converter
+
+## Project Overview
+
+The PDF to Excel Converter is a Python-based application that automates the extraction of structured information from PDF documents and converts it into Microsoft Excel (.xlsx) format. The project is designed to reduce manual data entry, improve accuracy, and efficiently process multiple PDF files.
+
+## Features
+
+* Extracts structured data from PDF documents.
+* Converts extracted information into Excel spreadsheets.
+* Supports batch processing of multiple PDF files.
+* Modular project architecture for easy maintenance and scalability.
+
+## Technologies Used
+
+* Python 3
+* PyMuPDF (fitz)
+* OpenPyXL
+
+## Project Structure
+
+```text
+config/
+excel/
+extractors/
+input_pdfs/
+output_excel/
+tests/
+main.py
+```
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+
+1. Place your PDF files inside the `input_pdfs` folder.
+2. Run the application:
+
+```bash
+python main.py
+```
+
+3. Generated Excel files will be saved in the `output_excel` folder.
+
+## Output
+
+The application automatically extracts structured information from PDF documents and generates corresponding Excel (.xlsx) files in the `output_excel` directory.
+
+## Note
+
+Sample input PDF files are not included because they are proprietary. Users can place their own PDF documents inside the `input_pdfs` folder for testing.
+
+## Future Improvements
+
+* Support additional PDF layouts.
+* Improve extraction accuracy.
+* Add a graphical user interface (GUI).
+* Export to CSV in addition to Excel.
 
