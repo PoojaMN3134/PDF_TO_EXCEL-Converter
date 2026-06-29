@@ -1,42 +1,105 @@
-##PDF to Excel Converter
+# 📄 PDF to Excel Converter
 
-## Project Overview
+## 📌 Project Overview
 
-This project extracts structured information from PDF files and converts it into Excel spreadsheets automatically using Python.
+The **PDF to Excel Converter** is a Python-based application that automatically extracts structured information from PDF documents and converts it into Microsoft Excel (`.xlsx`) files.
 
-## Features
+This project reduces manual data entry, improves accuracy, and enables efficient processing of multiple PDF files.
 
-* Extracts data from PDF files
-* Converts extracted information into Excel (.xlsx)
-* Processes multiple PDF files
-* Modular project structure
+---
 
-## Technologies Used
+## ✨ Features
 
-* Python
-* PyMuPDF
+* 📑 Extracts structured data from PDF documents.
+* 📊 Converts extracted information into Excel spreadsheets.
+* 📂 Supports batch processing of multiple PDF files.
+* ⚡ Fast and automated processing.
+* 🧩 Modular project architecture for easy maintenance and scalability.
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* PyMuPDF (fitz)
 * OpenPyXL
+* Object-Oriented Programming (OOP)
 
-## Project Structure
+---
 
-* config/
-* excel/
-* extractors/
-* input_pdfs/
-* main.py
+## 📁 Project Structure
 
-## How to Run
+```text
+PDF_TO_EXCEL/
+│── config/
+│── excel/
+│── extractors/
+│── input_pdfs/
+│── output_excel/
+│── tests/
+│── main.py
+│── README.md
+│── requirements.txt
+```
 
-1. Install the required packages.
-2. Place PDF files inside the `input_pdfs` folder.
-3. Run:
+---
+
+## 🚀 Installation
+
+Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ How to Run
+
+1. Place the PDF files inside the `input_pdfs` folder.
+2. Open the project in Visual Studio Code.
+3. Run the following command:
 
 ```bash
 python main.py
 ```
 
-4. Excel files will be generated inside the `output_excel` folder.
+4. The generated Excel files will be saved in the `output_excel` folder.
 
-## Note
+---
 
-Sample input PDF files are not included because they are proprietary. Users can place their own PDF files in the `input_pdfs` folder.
+## 📤 Output
+
+The application reads PDF documents, extracts structured information, and generates corresponding Excel (`.xlsx`) files automatically.
+
+---
+
+## 📸 Sample Output
+
+Generated Excel files are saved inside the `output_excel` directory after successful execution.
+
+---
+
+## 🔮 Future Enhancements
+
+* Support additional PDF layouts.
+* Improve extraction accuracy.
+* Add a graphical user interface (GUI).
+* Export data to CSV format.
+* Improve performance for large PDF files.
+
+---
+
+## 👩‍💻 Author
+
+**Pooja M N**
+
+Electronics and Communication Engineering Student
+
+Python | VLSI | Embedded Systems | Automation
+
+---
+
+## ⚠️ Note
+
+Sample input PDF files are **not included** because they are proprietary. Users can place their own PDF documents inside the `input_pdfs` folder before running the project.
