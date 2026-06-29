@@ -1,6 +1,6 @@
-**PDF to Excel Converter**
+# PDF to Excel Converter
 
-**Project Overview**
+# Project Overview
 
 The PDF to Excel Converter is a Python-based application that automates the extraction of structured information from PDF documents and converts it into Microsoft Excel (.xlsx) format. The project is designed to reduce manual data entry, improve accuracy, and efficiently process multiple PDF files.
 
